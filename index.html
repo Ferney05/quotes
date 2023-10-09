@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.js"></script>
+    <link rel="shortcut icon" href="img/citas.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <main class="container">
+        
+        <div class="options-citas" id="options-citas">
+            <div id="code-options">
+                <div class="options" id="options">
+                    <p class="items-functions" id="editar">Editar</p>
+                    <p class="items-functions" id="descargar">Descargar</p>
+                </div>
+            </div>
+    
+            <section class="citas-all ">
+                <div class="show-citas" id="show-citas">
+                    <div class="name_verificado_plus">
+                        <img src="img/citas.png" class="logo-img" alt="">
+                        <div class="title-cita">
+                            <div class="name-verificado">
+                                <div class="quotes-veri">
+                                    <h3 class="nombre-logo">quotes.</h3>
+                                    <img src="img/verificado.png" class="verificado-img" alt="">
+                                </div>
+                                <img src="img/mas.png" class="mas-img" id="plus">
+                            </div>
+                            <p class="cita" id="cita">La vida es lo que pasa mientras estás ocupado haciendo otros planes.</p>
+                            <input type="text" class="cita-input" id="cita-edit" style="display: none;">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="boton">
+            <button class="botonGenerar" id="boton">Generar cita</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
