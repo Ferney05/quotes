@@ -145,3 +145,21 @@ body {
 }
 
   
+
+@media (min-width: 500px) {
+    .citas-all {
+        width: 350px;
+    }
+
+    .cita {
+        width: 80%;
+    }
+
+    .mas-img {
+        margin: 0 3rem 0 0;
+    }
+
+    .options {
+        margin: 1.4rem 0 0 15rem;
+    }
+}
