@@ -146,9 +146,9 @@ body {
 
   
 
-@media (min-width: 450px) {
+@media (max-width: 500px) {
     .citas-all {
-        width: 330px;
+        width: 340px;
     }
 
     .cita {
